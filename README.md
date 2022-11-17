@@ -5,7 +5,7 @@
 Instead of creating the mesh topology, I tested the managing network traffic targeting Azure virtual machines in the hub and spoke network topology.
 This testing needs to include implementing connectivity between spokes by relying on user defined routes that force traffic to flow via **the hub**, as well as traffic distribution across virtual machines by using Azure Load Balancer (layer 4) and Azure Application Gateway (layer 7).
 
->**Note**: In the ARM template, I generated a total of 8 vCPUs available in the Standard_Dsv3 series in the **East US** region.
+>**Note**: In the ARM template, I generated a total of 8 vCPUs available in the Standard_Dsv3 series in the East US region.
 
 ## Objectives
 
